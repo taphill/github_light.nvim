@@ -36,9 +36,9 @@ Color.new('dark_blue',    '#032f62')
 Color.new('purple',       '#6f42c1')
 
 
--------------------
+------------------
 -- Diff Colors --
--------------------
+------------------
 
 Color.new('diff_red',    '#ffeef0')
 Color.new('diff_green',  '#e6ffed')
@@ -51,13 +51,13 @@ Color.new('diff_blue',    '#dbedff')
 -----------------------
 
 v.terminal_color_0 = '#24292e'   -- black
-v.terminal_color_8 = '#24292e'   -- black
+v.terminal_color_8 = '#24292e'   -- black bright
 
 v.terminal_color_1 = '#d73a49'   -- red
-v.terminal_color_9 = '#d73a49'   -- red
+v.terminal_color_9 = '#d73a49'   -- red bright
 
 v.terminal_color_2 = '#28a745'   -- green
-v.terminal_color_10 = '#28a745'  -- green
+v.terminal_color_10 = '#28a745'  -- green bright
 
 v.terminal_color_3 = '#e36209'   -- yellow
 v.terminal_color_11 = '#e36209'  -- yellow bright
@@ -118,7 +118,7 @@ Group.new('Underlined', c.dark_blue, c.none, ul)
 
 -- General UI
 Group.new('Normal', c.fg_primary, c.bg_primary, none)                          -- The main background and foreground colors
-Group.new('ColorColumn', c.none, c.bg_tertiary, none)                    -- Used for the columns set with 'colorcolumn'
+Group.new('ColorColumn', c.none, c.bg_tertiary, none)                          -- Used for the columns set with 'colorcolumn'
 Group.new('Conceal', c.dark_blue, c.bg_primary, none)                          -- Placeholder characters substituted for concealed text (see 'conceallevel')
 Group.new('Cursor', c.none, c.none, reverse)                                   -- The character under the cursor
 Group.new('CursorColumn', c.none, c.none, reverse)                             -- Current cursor column highlight
