@@ -74,6 +74,7 @@ v.terminal_color_14 = '#005cc5'  -- cyan bright
 v.terminal_color_7 = '#e1e4e8'   -- white
 v.terminal_color_15 = '#e1e4e8'  -- white bright
 
+
 -------------------------------------------------------------
 -- Syntax Groups (descriptions and ordering from `:h w18`) --
 -------------------------------------------------------------
