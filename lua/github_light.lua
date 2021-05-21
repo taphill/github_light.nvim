@@ -248,6 +248,7 @@ Group.new('luaStatement', c.red, c.none, none)
 Group.new('rubyHelper', c.purple, c.none, none)
 Group.new('rubyInterpolationDelimiter', c.light_blue, c.none, none)
 Group.new('rubyKeywordAsMethod', c.purple, c.none, none)
+Group.new('rubySymbol', c.light_blue, c.none, none)
 
 
 ---------------------
